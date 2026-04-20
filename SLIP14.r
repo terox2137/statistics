@@ -1,9 +1,17 @@
 ##SLIP - 14
-##Q.1 # Data
-sales <- c(100, 190, 210, 160, 150, 160, 190, 200, 170, 152)
+##Q.1 
+fact <- function(n) {
+  f <- 1
+  
+  for(i in 1:n) {
+    f <- f * i
+  }
+  
+  return(f)
+}
 
-# Summary Statistics
-summary(sales)
+# Example
+fact(5)
 
 ##Q.2 
 # Given rate (lambda) 
