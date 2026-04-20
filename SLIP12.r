@@ -1,21 +1,18 @@
 ##SLIP - 12
 ##Q.1 
 
-# Given vectors 
-v1 <- c(10, 25, 5, 40) 
-v2 <- c(15, 30, 20, 35) 
-# Concatenate 
-v <- c(v1, v2)  
+# Data
+year <- c(2000, 2001, 2002, 2004, 2005)
+students <- c(3500, 4100, 4300, 5000, 4900)
 
-# Sort in descending order 
-v_desc <- sort(v, decreasing = TRUE) 
-
-# Display 
-cat("Combined Vector:\n") 
-print(v) 
-cat("Descending Order:\n") 
-print(v_desc)
- 
+# Create Bar Plot
+barplot(students,
+        names.arg = year,
+        main = "Number of Students per Year",
+        xlab = "Year",
+        ylab = "Number of Students",
+        col = "lightblue",
+        border = "blue")
 
 ##Q.2 
 # Data
