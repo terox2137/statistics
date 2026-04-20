@@ -1,26 +1,11 @@
 ##SLIP - 15
 ##Q.1 
-# Data
-books <- c(4,12,7,24,32,18,9,19,21,14,27,16,8,20,12,15,7,2,6,11)
-
-# Arithmetic Mean
-mean(books)
-
-# Geometric Mean
-exp(mean(log(books)))
-
-# Harmonic Mean
-length(books) / sum(1/books)
-
-# Median
-median(books)
-
-# Mode (custom function)
-mode_fun <- function(x) {
-  ux <- unique(x)
-  ux[which.max(tabulate(match(x, ux)))]
-}
-mode_fun(books)
+for(i in 1:100){ 
+cat(i, " ") 
+if(i %% 3 == 0){ 
+cat("S.Y.B.Sc.\n") 
+} 
+} 
 
 ##Q.2
 # Data 
