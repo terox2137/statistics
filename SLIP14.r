@@ -1,11 +1,9 @@
 ##SLIP - 14
-##Q.1 
-# Input number 
-num <- 5 
+##Q.1 # Data
+sales <- c(100, 190, 210, 160, 150, 160, 190, 200, 170, 152)
 
-# Using built-in function 
-fact <- factorial(num) 
-cat("Factorial of", num, "is:", fact, "\n") 
+# Summary Statistics
+summary(sales)
 
 ##Q.2 
 # Given rate (lambda) 
